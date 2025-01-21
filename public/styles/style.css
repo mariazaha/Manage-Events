@@ -1,0 +1,129 @@
+/*default elements*/
+body {
+    background: #f0f5f0; /* Fundal verde deschis */
+    color: #1a1a1a; /* Negru subtil pentru text */
+    margin: 0;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    gap: 20px; /* Spațiu între elemente */
+}
+
+/*header*/
+header {
+    background-color: #003300; /* Verde foarte închis */
+    color: #f9f9f9; /* Alb subtil */
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 1.8rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+/*end of header*/
+
+/*centrat text*/
+.centered-text {
+    color: #007700; /* Verde mediu */
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+/*end of centered text*/
+
+/*buttons*/
+.btn-primary {
+    background-color: #1e8c1e; /* Verde intens */
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #145a14; /* Verde închis */
+}
+
+.btn-danger {
+    background-color: #cc3300; /* Roșu aprins */
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-danger:hover {
+    background-color: #992600; /* Roșu închis */
+}
+/*end of buttons*/
+
+/*input elements*/
+.input-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.input {
+    background-color: white;
+    color: #1a1a1a; /* Text negru subtil */
+    border: 2px solid #007700; /* Verde mediu */
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.input:focus {
+    background-color: #e6ffe6; /* Verde foarte deschis */
+    border-color: #003300; /* Verde închis */
+}
+/*end of input elements*/
+
+/*table styling*/
+.table {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.table thead {
+    background-color: #007700; /* Verde mediu */
+    color: white;
+    font-size: 1.2rem;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f2f9f2; /* Verde foarte deschis */
+}
+
+.table tbody td, .table thead th {
+    border: 1px solid #cccccc; /* Gri subtil */
+    padding: 10px;
+    text-align: center;
+}
+/*end of table styling*/
+
+/*footer*/
+footer {
+    background-color: #003300; /* Verde foarte închis */
+    color: #f9f9f9; /* Alb subtil */
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    margin-top: auto;
+}
+/*end of footer*/
